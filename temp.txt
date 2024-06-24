@@ -1,0 +1,8 @@
+volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
